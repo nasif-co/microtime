@@ -62,7 +62,7 @@ let primeMeridian = -90;
 let currentLong = -90;
 
 function draw() {
-  orbitControl(2,2,0, {
+  orbitControl(1,1,0, {
     disableTouchActions: true,
   });
   background(255);
