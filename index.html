@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&display=swap"
+    rel="stylesheet">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Sketch</title>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/p5@2.0.5/lib/p5.js"></script>
+</head>
+
+<body>
+  <time class="not-set">
+    <h1 class="label">Microtime @ <span class="longitude"></span>º</h1>
+    <div class="time">
+      <span class="hour"></span><span class="divider">:</span><span class="minute"></span>
+    </div>
+    <div class="addendum">
+      <span class="ampm"></span>
+      <span class="seconds"></span>
+    </div>
+    <div class="date">
+      <span class="month"></span>
+      <span class="day"></span>
+      <span class="year"></span>
+    </div>
+  </time>
+  <script src="realTimeClock.js"></script>
+  <script src="watchLongitude.js"></script>
+  <script src="sketch.js"></script>
+</body>
+
+</html>
